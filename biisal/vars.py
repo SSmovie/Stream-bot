@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 
 load_dotenv()
-bot_name = "Bɪɪsᴀʟ Fɪʟᴇ2Lɪɴᴋ Bᴏᴛ"
+bot_name = "Deendayal File To Link Bot"
 bisal_channel = "https://telegram.me/Deendayal_dhakad"
 bisal_grp = "https://t.me/Deendayal_Movies_Group"
 
