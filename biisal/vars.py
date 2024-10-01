@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 bot_name = "Deendayal File To Link Bot"
 bisal_channel = "https://telegram.me/Deendayal_dhakad"
-bisal_grp = "https://t.me/Deendayal_Movies_Group"
+bisal_grp = "https://t.me/Deendayal_Movie_Group"
 
 class Var(object):
     MULTI_CLIENT = False
@@ -18,8 +18,8 @@ class Var(object):
     name = str(getenv('name', 'Deendayal_File_To_Link_Bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002168413407'))
-    NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1002168413407'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001970548842'))
+    NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1001970548842'))
     PORT = int(getenv('PORT', '8080'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
@@ -40,7 +40,7 @@ class Var(object):
     else:
         URL = "http://{}/".format(FQDN)
     DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://deendayaldeenu84:r2sXoWGr3oYESdmS@cluster0.yhrcfhi.mongodb.net/?retryWrites=true&w=majority'))
-    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'Deendayal_movies')) 
+    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'Deendayal_dhakad')) 
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "")).split()))   
     BAN_CHNL = list(set(int(x) for x in str(getenv("BAN_CHNL", "")).split()))   
     BAN_ALERT = str(getenv('BAN_ALERT' , '<b>ʏᴏᴜʀ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ.Pʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ @Contact_Deendayal_bot ᴛᴏ ʀᴇsᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇ!!</b>'))
