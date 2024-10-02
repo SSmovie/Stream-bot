@@ -32,7 +32,7 @@ async def start(b, m):
         )
     if Var.UPDATES_CHANNEL != "None":
         try:
-            user = await b.get_chat_member(Var.UPDATES_CHANNEL, m.chat.id)
+            user = await b.get_chat_member(if Var.UPDATES_CHANNEL != "None":)
             if user.status == "kicked":
                 await b.send_message(
                     chat_id=m.chat.id,
